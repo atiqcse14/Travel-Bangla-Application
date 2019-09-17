@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shovan.travelbanglaapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tb"
+        android:label="Travel Bangla"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Chittagong" />
+        <activity android:name=".Dhaka" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".Rajshahi" />
+        <activity android:name=".Khulna" />
+        <activity android:name=".Barisal" />
+        <activity android:name=".Sylhet" />
+        <activity android:name=".Rangpur" />
+        <activity android:name=".Mymensingh" />
+        <activity android:name=".Coxbazar" />
+        <activity android:name=".Ahsan_Manjil" />
+        <activity android:name=".Lalbag" />
+        <activity android:name=".Dhanmondi_Lake" />
+        <activity android:name=".Dhakeswari_Temple" />
+        <activity android:name=".Tara_Mosque" />
+        <activity android:name=".Parliament_Building" />
+        <activity android:name=".Chittagong_District" />
+        <activity android:name=".Bandarban" />
+        <activity android:name=".Khagrachari" />
+        <activity android:name=".Kaptai" />
+        <activity android:name=".Sitakunda" />
+        <activity android:name=".Puthia_Temple" />
+        <activity android:name=".Mahastangarh" />
+        <activity android:name=".Bagha_Mosque" />
+        <activity android:name=".Ramsagar_Park" />
+        <activity android:name=".Sundarban" />
+        <activity android:name=".Shat_Gumbad" />
+        <activity android:name=".Shilaidaha_Kuthibari" />
+        <activity android:name=".Lalon_Mazaar" />
+        <activity android:name=".Kuakata" />
+        <activity android:name=".Guthia_Mosque" />
+        <activity android:name=".Durga_Sagar" />
+        <activity android:name=".Lebur_Char" />
+        <activity android:name=".Jaflong" />
+        <activity android:name=".Bisanakandi" />
+        <activity android:name=".Shahjalal_Dorgha" />
+        <activity android:name=".Ratargul" />
+        <activity android:name=".Tajhat_Palace" />
+        <activity android:name=".Town_Hall" />
+        <activity android:name=".Rangpur_Zoo" />
+        <activity android:name=".Binodon_Uddyan" />
+        <activity android:name=".Zainul_Abedin_Museum" />
+        <activity android:name=".Shoshi_Lodge" />
+        <activity android:name=".Botanical_Garden"></activity>
+    </application>
+
+</manifest>

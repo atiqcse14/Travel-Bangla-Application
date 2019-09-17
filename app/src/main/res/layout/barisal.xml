@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_barisal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shovan.travelbanglaapp.Barisal"
+    android:background="@drawable/all"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <Button
+            android:text="kuakata"
+            android:textSize="25dp"
+            android:textColor="#e93039"
+            android:textStyle="bold"
+            android:background="@drawable/button2"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:id="@+id/kuakata" />
+
+        <Button
+            android:text="Guthia Mosque "
+            android:textSize="25dp"
+            android:textColor="#e93039"
+            android:textStyle="bold"
+            android:background="@drawable/button2"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:id="@+id/guthia" />
+
+        <Button
+            android:text="Durga Sagar"
+            android:textSize="25dp"
+            android:textColor="#e93039"
+            android:textStyle="bold"
+            android:background="@drawable/button2"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:id="@+id/durga" />
+
+        <Button
+            android:text="Lebur Char"
+            android:textSize="25dp"
+            android:textColor="#e93039"
+            android:textStyle="bold"
+            android:background="@drawable/button2"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:id="@+id/lebur" />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

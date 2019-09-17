@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_ctg_place"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.example.shovan.travelbanglaapp.Chittagong"
+    android:background="@drawable/all"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button
+            android:text="CHITTAGONG DISTRICT"
+            android:textSize="25dp"
+            android:textColor="#e93039"
+            android:textStyle="bold"
+            android:background="@drawable/button2"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:id="@+id/chit" />
+
+        <Button
+            android:text="COXSBAZAR"
+            android:textSize="25dp"
+            android:textColor="#e93039"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:background="@drawable/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:id="@+id/coxb" />
+
+        <Button
+            android:text="BANDARBAN"
+            android:textSize="25dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#e93039"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:background="@drawable/button2"
+            android:layout_height="70dp"
+            android:id="@+id/bandr" />
+
+        <Button
+            android:text="KHAGRACHARI"
+            android:textSize="25dp"
+            android:background="@drawable/button2"
+            android:textColor="#e93039"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:id="@+id/khag" />
+
+        <Button
+            android:text="KAPTAI"
+            android:textSize="25dp"
+            android:textColor="#e93039"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:background="@drawable/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:id="@+id/kap" />
+
+
+        <Button
+            android:text="SITAKUNDA"
+            android:textSize="25dp"
+            android:textColor="#e93039"
+            android:background="@drawable/button2"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:id="@+id/sitakunda" />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+
+
